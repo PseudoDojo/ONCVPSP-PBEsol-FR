@@ -99,9 +99,9 @@ for ii in np.arange(100):
 #  os.system('mv '+str(elements[ii])+'.psml  '+str(elements[ii])+'/'+str(elements[ii])+'_std.psml')
 #  os.system('mv '+str(elements[ii])+'.psp8  '+str(elements[ii])+'/'+str(elements[ii])+'_str.psp8')
 #  os.system('mv '+str(elements[ii])+'.upf  '+str(elements[ii])+'/'+str(elements[ii])+'_str.upf')
-  os.system('mv '+str(elements[ii])+'.psml  '+str(elements[ii])+'/'+str(elements[ii])+'_str.psml')
-#   os.system('cd '+str(elements[ii])+'/ && wget http://www.pseudo-dojo.org/pseudos/nc-sr-04_pbesol_standard/'+str(elements[ii])+'.html && mv '+str(elements[ii])+'.html '+str(elements[ii])+'_std.html' )
-#   os.system('cd '+str(elements[ii])+'/ && wget http://www.pseudo-dojo.org/pseudos/nc-sr-04_pbesol_stringent/'+str(elements[ii])+'.html && mv '+str(elements[ii])+'.html '+str(elements[ii])+'_str.html' )
+#  os.system('mv '+str(elements[ii])+'.psml  '+str(elements[ii])+'/'+str(elements[ii])+'_str.psml')
+#   os.system('cd '+str(elements[ii])+'/ && wget http://www.pseudo-dojo.org/pseudos/nc-fr-04_pbesol_standard/'+str(elements[ii])+'.html && mv '+str(elements[ii])+'.html '+str(elements[ii])+'_std.html && cd ../' )
+   os.system('cd '+str(elements[ii])+'/ && wget http://www.pseudo-dojo.org/pseudos/nc-fr-04_pbesol_stringent/'+str(elements[ii])+'.html && mv '+str(elements[ii])+'.html '+str(elements[ii])+'_str.html && cd ../' )
 
 
 
